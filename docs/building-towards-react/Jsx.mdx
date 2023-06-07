@@ -1,0 +1,60 @@
+---
+sidebar_position: 2
+---
+
+# JSX
+
+#### What is JSX?
+
+JSX is a syntax extension to JavaScript. It allows us to write HTML-like syntax that transpiles to Javascript objects.
+
+#### How do we transpile JSX to Javascript code and HTML?
+
+✨Babel - `https://babeljs.io/docs/` ✨
+
+#### Time example
+
+We can re-write our application using CSS and JSX:
+
+```
+https://codepen.io/grvshrm/pen/KKGYGqE
+```
+
+<iframe
+  src="https://codepen.io/grvshrm/embed/KKGYGqE"
+  style={{ width: "100%", height: "400px" }}
+></iframe>
+
+From our example, the following is JSX:
+
+```
+const Component = () => {
+  const currentTime = new Date();
+  const currentTimeInSeconds = currentTime.getSeconds();
+  const currentTimeString = currentTime.toString();
+  const isEvenSecond = currentTimeInSeconds % 2 == 0;
+
+  return (
+    <body>
+        <h1>Hello!</h1>
+        <p className="text">Welcome to this webpage</p>
+        <p id="time">You opened this web page on {currentTimeString}</p>
+        <p className="text">{currentTimeInSeconds} seconds have passed since the start of the minute. We're on an {isEvenSecond ? "even" : "odd"} second</p>
+    </body>
+  )
+}
+```
+
+#### How is transpilation different from compilation?
+
+- Compilation: Source code converted to another language that has a marked _lower_ level of abstraction.
+- Transpilation: Source code converted to source code again, with a _similar_ level of abstraction.
+
+How is this approach better?
+
+1. declarative. we declare (using JSX) what the HTML should look like and React makes it so!
+2. Only 1 line of HTML!
+3. Ability to use javascript logic makes code less verbose
+4. Easy to unit-test
+5. Easy to modularize
+6. Easy to read ==> Easy to scale and maintain

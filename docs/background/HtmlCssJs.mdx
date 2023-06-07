@@ -1,0 +1,107 @@
+---
+sidebar_position: 1
+---
+
+# HTML, CSS and JS
+
+### HTML (Hypertext Markup Language)
+
+HTML defines the structure of a webpage using a sequence of user-written tags. Every tag has an opening and closing syntax.
+
+```
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8" />
+ </head>
+
+ <body>
+   <h1>Hello!</h1>
+
+   <p>Welcome to this webpage</p>
+   <p>You opened this web page on</p>
+ </body>
+```
+
+![html](./assets/html.png)
+
+### CSS (Cascading Style Sheets)
+
+#### Adding styles to the content
+
+```
+ body {
+   padding: 50px;
+   font-size: 20px;
+ }
+
+ .text {
+   margin: 20px 0;
+   color: blue;
+ }
+
+ #time {
+   color: maroon;
+ }
+```
+
+> Further resources
+>
+> - [https://internetingishard.netlify.app/html-and-css/index.html](https://internetingishard.netlify.app/html-and-css/index.html)
+
+![html](./assets/css.png)
+
+### Javascript
+
+#### Adding logic using vanilla JS
+
+We want to:
+
+- Add the current time to the content
+- Display how many seconds have elapsed since the start of the current minute
+
+```
+// 1. Find the present time
+const currentTime = new Date();
+
+// 2. Find element in DOM and change its text content
+var paragraphs = document.querySelectorAll("p");
+var timeParagraph = paragraphs[1];
+timeParagraph.textContent =
+  timeParagraph.textContent + " " + currentTime.toString();
+
+// 3. Add a new paragraph to tell us the seconds in the current minute
+var p = document.createElement("p");
+var body = document.body;
+if (currentTime.getSeconds() % 2 == 0) {
+  p.textContent = `${currentTime.getSeconds()} seconds have passed since the start of the minute. We're on an even second`;
+} else {
+  p.textContent = `${currentTime.getSeconds()} seconds have passed since the start of the minute. We're on an even second`;
+}
+p.className = "text";
+
+body.appendChild(p);
+```
+
+#### See it in action
+
+```
+https://codepen.io/grvshrm/pen/eYPoPzw
+```
+
+<iframe
+  src="https://codepen.io/grvshrm/embed/eYPoPzw"
+  style={{ width: "100%", height: "400px" }}
+></iframe>
+
+### What are the issues here?
+
+1. This is an *imperative* approach to writing software. We have to specify line by line what the HTML should look like, and our javascript code is tightly coupled to the HTML layout (e.g. i need to get the second paragraph to do xyz)
+2. the tight coupling leads to unexpected breaking changes. If somebody adds a paragraph to the top of the html page, our javascript code with break
+3. imperative style is awkward and verbose. we have to reach inside the DOM, get the node, change the node in javascript, and then stick it back in the DOM.
+4. Not unit-testable
+5. Difficult to modularize. As this app grows, the javascript/HTML file is likely to grow longer and longer.
+
+> Further resources
+>
+> - [How browsers work](https://web.dev/howbrowserswork)
+> - [Javascript tutorial - Codecademy](https://www.codecademy.com/learn/introduction-to-javascript)
