@@ -8,7 +8,7 @@
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
-    "deploy:static": "git checkout gh-pages; rm -rf *; rm -rf build; git checkout main -- ./build; cd build; mv * ../; cd ../; rm -rf build; git add *; git commit -m '🧹Commit build files'; git push;",
+    "deploy:static": "git checkout main && npm run build && git checkout gh-pages && rm -rf * && rm -rf build && git checkout main -- ./build && cd build && mv * ../ && cd ../ && rm -rf build && git add * && git commit -m '🧹Commit build files' && git push;",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
