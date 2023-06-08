@@ -1,8 +1,9 @@
 ---
 sidebar_position: 2
+slug: setup
 ---
 
-### Setup
+# Setup
 
 We will need the following:
 - Node installed

@@ -1,8 +1,9 @@
 ---
 sidebar_position: 1
+slug: find-my-emoji
 ---
 
-### Lab #1: Emoji searching
+# #1: Find my emoji
 
 Fork the following repo:
 

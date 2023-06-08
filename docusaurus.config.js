@@ -50,7 +50,8 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath: '/',
+          // Change to '/' to make docs the landing page 
+          routeBasePath: 'react-basics',
         },
         blog: false,
         theme: {

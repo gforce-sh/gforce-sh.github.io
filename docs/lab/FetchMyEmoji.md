@@ -1,8 +1,9 @@
 ---
 sidebar_position: 2
+slug: fetch-my-emoji
 ---
 
-### Lab #2: Emoji fetching
+# #2: Fetch my emoji
 
 In this lab, we will learn how to consume a public API and render a dynamic list of emojis
 
