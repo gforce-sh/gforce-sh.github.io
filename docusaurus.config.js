@@ -8,13 +8,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'React Basics',
   tagline: 'A hands-on introductory course by Gaurav Sharma',
-  favicon: 'img/gs-logo.svg',
+  favicon: 'img/gs-logo.png',
 
   // Set the production url of your site here
   url: 'https://gaurav-me.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/site-verse/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -69,7 +69,7 @@ const config = {
         title: 'React Basics',
         logo: {
           alt: 'Site Logo',
-          src: 'img/gs-logo.svg',
+          src: 'img/gs-logo.png',
         },
       },
       prism: {
