@@ -15,11 +15,11 @@ const App = () => {
 };
 ```
 
-A react component is simply the declaration of a component as above. In this case, it's a ***Functional component***, but can be a ***Class component*** too. **A functional component is declared as a JavaScript function which returns JSX**.
+A react component is simply the declaration of a component as above. In this case, it's a **_Functional component_**, but can be a **_Class component_** too. **A functional component is declared as a JavaScript function which returns JSX**.
 
 ### 3. React Element
 
-Components can be composed of other components. This is what makes React modular. In order to render a component inside another component, we place the child component name inside *angular brackets* this way:
+Components can be composed of other components. This is what makes React modular. In order to render a component inside another component, we place the child component name inside _angular brackets_ this way:
 
 ```
 const Greeting = () => {
@@ -51,27 +51,29 @@ const App = () => {
 
 :::info
 When writing the `Greeting` component above, we are destructuring the props object. Destructuring is a Javascript syntactic sugar. The component can we re-written as:
+
 ```
     const Greeting = (props) => {
         const text = props.text;
         return <p>{text}</p>;
     }
 ```
+
 :::
 
 ### 5. State
 
-A React application would typically need to maintain some state information. For example, if you are booking a transport on Grab, the application would need to store the following information in state before it calls an API to make a booking:
+A React application would typically need to maintain some state information. For example, if you are booking a transport on a ride-hailing service, the application would need to store the following information in state before it calls an API to make a booking:
 
 - Customer's name and id
 - Current location
 - Destination
 - Type of transport request (4-seater, premium, van etc)
 
-In React, a state is a simple JS object, that can be stored interally (or locally) in a component.
+In React, a state is a simple JS object, that can be stored interally in a component.
 
 - A state should be private to the component it is created in.
-- If we violate this principle of encapsulation, we end up with tighly coupled code that is hard to interpret, change and exted. **We don't want to do this**.
+- If we violate this principle of encapsulation, we end up with tighly coupled code that is hard to interpret, change and extend. **We don't want to do this**.
 
 Using React hooks, we can create a state in a component as follows:
 
@@ -94,7 +96,7 @@ We'll see it in action in the demo later.
 
 ### 6. Rendering a virtual DOM
 
-A React application is composed of such components and elements. React reads these components and formulates a 'virtual DOM', that it then attaches to one DOM node specified by HTML. This attachment is done as follows:
+A React application is composed of such components and elements. React reads these components and formulates a 'virtual DOM', that it then attaches to one DOM node specified by our 1 line of HTML. This attachment is done as follows:
 
 HTML
 
@@ -113,5 +115,88 @@ JSX
 
 ### 7. Event Lifecycle
 
+There are 4 main stages in the life of a page.
+
+[Event Lifecycle](./assets/event-lifecycle.png)
+
+React provides us with a function (actually a `hook`) to carry out actions for each of these events.
+
+#### Mounting
+
+```
+  import { useEffect, useState } from 'react';
+
+  const App = () => {
+    const [state, setState] = useState("");
+
+    useEffect(() => {
+      setState("Hello React")
+    }, [])
+
+    return (
+        <div>
+            <p>{state}</p>
+        </div>
+    );
+};
+```
+
+#### Updating (or re-rendering)
+
+```
+  import { useEffect, useState } from 'react';
+
+  const App = ({ sayHello }) => {
+    const [state, setState] = useState("");
+
+    useEffect(() => {
+      if(sayHello) {
+        setState("Hello React");
+      } else {
+        setState("")
+      }
+    }, [sayHello])
+
+    return (
+        <div>
+            <p>{state}</p>
+        </div>
+    );
+};
+```
+
+#### Unmounting
+
+```
+ import { useEffect, useState } from 'react';
+
+  const App = () => {
+    const [state, setState] = useState("Hello React");
+
+    useEffect(() => {
+      return () => {
+        setState("")
+      }
+    }, [])
+
+    return (
+        <div>
+            <p>{state}</p>
+        </div>
+    );
+  };
+```
+
+#### Error
+
+Currently, if we want to catch an error inside a React component, instead of using a functional component, need to write a stateful component and use the `getDerivedStateFromError` method. This is not a common occurence, as most errors arise in Javascript functions and are handling using `try-catch` blocks, or their equivalent. Therefore it is not very important right now, and we will look at `getDerivedStateFromError` in stateful components later if we are able to finish the the exercises in time.
+
+:::tip
+Generally, the entire nest of React components is wrapped in one stateful component with `getDerivedStateFromError` to catch any JSX-based errors.
+:::
 
 ### 8. React Hooks
+
+Hooks let us access state, add actions to lifecycle events, memoise expensive computations in components among a wide variety of other features. `useState`, `useEffect`, `useMemo`, `useCallback` are all hooks provided out-of-the-box with react. We will see these hooks in action in the exercises next. You can read more about available hooks [here](https://legacy.reactjs.org/docs/hooks-intro.html).
+
+We can define our own custom hooks to. Hooks are a great way to modularise _logic_ (as opposed to UI, which is modularised with the help of react components) between componenets. For example, I can write a custom hook to fetch weather data, and then re-use the hook by calling it in every React component on every page where the weather data is required. See [Reusing Logic with Custom Hooks](https://react.dev/learn/reusing-logic-with-custom-hooks) for more details.

@@ -30,19 +30,20 @@ From our example, the following is JSX:
 ```
 const Component = () => {
   const currentTime = new Date();
-  const currentTimeInSeconds = currentTime.getSeconds();
-  const currentTimeString = currentTime.toString();
-  const isEvenSecond = currentTimeInSeconds % 2 == 0;
-
+  
   return (
-    <body>
-        <h1>Hello!</h1>
-        <p className="text">Welcome to this webpage</p>
-        <p id="time">You opened this web page on {currentTimeString}</p>
-        <p className="text">{currentTimeInSeconds} seconds have passed since the start of the minute. We're on an {isEvenSecond ? "even" : "odd"} second</p>
-    </body>
+    <div id="container">
+      <h1>Hello world!</h1>
+
+      <p className="text">You opened this page on {currentTime.toLocaleString()}</p>
+      <p className="shaded">What are the odds of it being exactly {currentTime.toLocaleTimeString()}</p>
+    </div>
   )
 }
+
+ReactDOM.render(
+  <Component />,  document.getElementById('root')
+);
 ```
 
 #### How is transpilation different from compilation?
@@ -50,11 +51,11 @@ const Component = () => {
 - Compilation: Source code converted to another language that has a marked _lower_ level of abstraction.
 - Transpilation: Source code converted to source code again, with a _similar_ level of abstraction.
 
-How is this approach better?
+#### How is this approach better?
 
-1. declarative. we declare (using JSX) what the HTML should look like and React makes it so!
-2. Only 1 line of HTML!
-3. Ability to use javascript logic makes code less verbose
-4. Easy to unit-test
-5. Easy to modularize
-6. Easy to read ==> Easy to scale and maintain
+1. This approach is not imperative, but *declarative*. We're no longer looking for HTML nodes to manipulate. Through JSX, we _declare_ what the structure of the HTML should be, and React does the rest.
+2. Writing Javascript together with HTML makes our code concise.
+3. We only need 1 line of HTML - the "root" `div`.
+4. Unit testing is possible now, I just need to consider the JSX element `Component`.
+5. Creating `Component` also means that we can modularise our code.
+6. All this means that it is easier to read and extend our code, which means its easier to scale our application.

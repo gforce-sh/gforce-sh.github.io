@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'React Basics',
   tagline: 'A hands-on introductory course by Gaurav Sharma',
-  favicon: 'img/gs-logo.png',
+  favicon: 'img/js-logo.png',
 
   // Set the production url of your site here
   url: 'https://gaurav-me.github.io',
@@ -70,7 +70,7 @@ const config = {
         title: 'React Basics',
         logo: {
           alt: 'Site Logo',
-          src: 'img/gs-logo.png',
+          src: 'img/js-logo.png',
         },
         hideOnScroll: true,
       },
