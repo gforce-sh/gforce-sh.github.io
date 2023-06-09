@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="31564228-7bd7-4f8b-ae3c-4452e69e6346" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/0e384e19.eddf5785.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/7c12e7c6.0033cf88.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/935f2afb.e182174a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/a45d1a91.b0b81231.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/ed807093.e5b4bd51.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/main.d562de6c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/main.d562de6c.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/runtime~main.6d1d9bb2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/react-basics.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/react-basics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/react-basics/background/HtmlCssJs.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/react-basics/background/HtmlCssJs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/react-basics/building-towards-react/Jsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/react-basics/building-towards-react/Jsx.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/react-basics/building-towards-react/Outline.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/react-basics/building-towards-react/Outline.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/react-basics/building-towards-react/ReactBuildingBlocks.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/react-basics/category/background.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/react-basics/category/background.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/react-basics/category/building-blocks-of-react.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/react-basics/category/building-blocks-of-react.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/react-basics/category/exercises.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/react-basics/category/exercises.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/react-basics/category/introduction.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/react-basics/category/introduction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/react-basics/introduction/Overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/react-basics/introduction/Overview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/react-basics/introduction/setup.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/react-basics/introduction/setup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/react-basics/lab/fetch-my-emoji.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/react-basics/lab/fetch-my-emoji.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/react-basics/lab/find-my-emoji.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/react-basics/lab/find-my-emoji.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/react-basics/lab/route-my-emoji.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/react-basics/lab/route-my-emoji.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/search-index-docs-default-current.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/search-index-docs-default-current.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/building-towards-react/ReactBuildingBlocks.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/building-towards-react/ReactBuildingBlocks.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/intro.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docusaurus.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docusaurus.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sidebars.js" beforeDir="false" afterPath="$PROJECT_DIR$/sidebars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2QvhbJffWyYADAgk1KhKiIDqKp6" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="2" id="Remove" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/gaurav/Developer/docusaurus&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/gaurav/Developer/docusaurus/node_modules/prettier&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;repository&quot;
+    ]
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="31564228-7bd7-4f8b-ae3c-4452e69e6346" name="Changes" comment="" />
+      <created>1686240033488</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686240033488</updated>
+      <workItem from="1686240036663" duration="7917000" />
+      <workItem from="1686276451307" duration="363000" />
+    </task>
+    <task id="LOCAL-00001" summary="⚡️Minor sidebar and text updates">
+      <created>1686276791668</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686276791668</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="⚡️Minor sidebar and text updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="⚡️Minor sidebar and text updates" />
+  </component>
+</project>
