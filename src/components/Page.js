@@ -8,7 +8,7 @@ export const Page = () => {
   return (
     <PageWrapper>
       <MenuContainer>
-        <Link to="/react-basics">
+        <Link to="/basics-react">
           <Card>
             <Text weight={700} size={28} lineHeight={1.2}>React basics</Text>
             <Text size={12} color="#C9CCCC">Gitbook course</Text>

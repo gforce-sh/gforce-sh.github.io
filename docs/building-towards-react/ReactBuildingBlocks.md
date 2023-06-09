@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+slug: composition-data-event-lifecycle
 ---
 
 # Composition, Data management and Event lifecycle
@@ -21,12 +22,12 @@ A react component is simply the declaration of a component as above. In this cas
 Components can be composed of other components. This is what makes React modular. In order to render a component inside another component, we place the child component name inside *angular brackets* this way:
 
 ```
-const Greeting = ({text}) => {
-  return <p>{text}</p>;
+const Greeting = () => {
+  return <p>Hello React</p>;
 };
 
 const App = () => {
-  return <Greeting text="Hellp React" />;
+  return <Greeting />;
 };
 ```
 
@@ -39,11 +40,24 @@ Props enables components to exchange information between each other. 'Props' is 
 In the example above, `text` is one such defined prop, who's value is set to 'Hello React' and is passed down from the `App` component to the `Greeting` component. `Greeting` could be re-written as:
 
 ```
-const Greeting = (props) => {
-    const text = props.text;
-    return <p>{text}</p>;
-}
+const Greeting = ({ text }) => {
+  return <p>{text}</p>;
+};
+
+const App = () => {
+  return <Greeting text="Hello React" />;
+};
 ```
+
+:::info
+When writing the `Greeting` component above, we are destructuring the props object. Destructuring is a Javascript syntactic sugar. The component can we re-written as:
+```
+    const Greeting = (props) => {
+        const text = props.text;
+        return <p>{text}</p>;
+    }
+```
+:::
 
 ### 5. State
 
@@ -67,7 +81,12 @@ import { useState } from 'react'
 const App = () => {
     const [state, setState] = useState("");
 
-    return <p>The current state is {state}</p>;
+    return (
+        <div>
+            <button onClick={() => setState("Hello React")}>Click me to set state!</Button>
+            <p>{state}</p>
+        </div>
+    );
 };
 ```
 

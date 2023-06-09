@@ -51,7 +51,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Change to '/' to make docs the landing page 
-          routeBasePath: 'react-basics',
+          routeBasePath: 'basics-react',
         },
         blog: false,
         theme: {
@@ -72,6 +72,7 @@ const config = {
           alt: 'Site Logo',
           src: 'img/gs-logo.png',
         },
+        hideOnScroll: true,
       },
       prism: {
         theme: lightCodeTheme,
