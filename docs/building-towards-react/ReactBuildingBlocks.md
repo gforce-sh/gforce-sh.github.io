@@ -117,7 +117,7 @@ JSX
 
 There are 4 main stages in the life of a page.
 
-[Event Lifecycle](./assets/event-lifecycle.png)
+![Event Lifecycle](./assets/event-lifecycle.png)
 
 React provides us with a function (actually a `hook`) to carry out actions for each of these events.
 
