@@ -8,7 +8,7 @@
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
-    "deploy:static": "git checkout main && npm run build && git add --all && git commit -m '🧹CB' && git push && git checkout gh-pages && rm -rf * && rm -rf build && git checkout main -- ./build && mv ./build/* ./ && rm -rf build && touch .nojekyll && git add * && git commit -m '🧹Commit build files' && git push && git checkout main;",
+    "deploy:static": "git checkout main && npm run build && git add --all && git commit -m '🧹CB' && git push && git checkout gh-pages && rm -rf * && rm -rf build && git checkout main -- ./build && mv ./build/* ./ && rm -rf build && touch .nojekyll && git add * && git commit -m '🧹Commit build files' && git push && git checkout main && npm install;",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
@@ -28,6 +28,7 @@
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "2.4.1",
+    "@emotion/babel-preset-css-prop": "^11.11.0",
     "eslint": "8.22.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
