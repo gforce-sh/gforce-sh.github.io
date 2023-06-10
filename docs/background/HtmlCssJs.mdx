@@ -70,8 +70,8 @@ h1 {
 
 We want to:
 
-- Add the current time to the content
-- Display how many seconds have elapsed since the start of the current minute
+- Find out what the current time is
+- Add the current time to the page content
 
 ```
 // 1. Find the present time
@@ -83,7 +83,7 @@ var timeParagraph = paragraphs[0];
 timeParagraph.textContent =
   timeParagraph.textContent + " " + currentTime.toLocaleString();
 
-// 3. Add a new paragraph to tell us the seconds in the current minute.
+// 3. (Optional) add a new paragraph
 var p = document.createElement("p");
 p.textContent = `What are the odds of it being exactly ${currentTime.toLocaleTimeString()}!`;
 p.className = "shaded";
