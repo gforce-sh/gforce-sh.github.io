@@ -3,9 +3,7 @@ import styled from '@emotion/styled'
 
 import { Page } from '../components/Page';
 import ErrorBoundary from '../components/ErrorBoundary';
-
 import background from '@site/static/img/universe.jpeg'
-
 
 export default function Home() {
   return (
