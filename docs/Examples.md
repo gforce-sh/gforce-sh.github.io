@@ -5,17 +5,19 @@ slug: /examples
 
 # Examples
 
-## [airbnb](https://www.airbnb.com.sg/)
+## of applications created with React
 
-![airbnb](./background/assets/airbnb-example.jpg)
+### 1. [airbnb](https://www.airbnb.com.sg/)
 
-## [Snaphunt](https://snaphunt.com/)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![airbnb](./background/assets/airbnb-example.jpg)
 
-![snaphunt](./background/assets/snaphunt-example.jpg)
+### 2. [Snaphunt](https://snaphunt.com/)
 
-# Other examples
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![snaphunt](./background/assets/snaphunt-example.jpg)
 
-- [Cloudfare](https://www.cloudflare.com/)
-- [tibe digital](https://tribe.digital/insights)
-- Dropbox
-- Facebook and Instagram
+## Other examples
+
+3. [Cloudfare](https://www.cloudflare.com/)
+4. [tribe digital](https://tribe.digital/insights)
+5. Dropbox
+6. Facebook and Instagram

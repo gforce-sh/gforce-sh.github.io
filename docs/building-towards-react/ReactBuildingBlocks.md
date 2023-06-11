@@ -113,6 +113,13 @@ JSX
     );
 ```
 
+:::info
+
+#### React is a Single Page Application
+
+The virtual DOM that we construct using JSX written in React components attaches to a single HTML element (`div` with `id=root`). This happens whenever we load a new component to the page. This means that whenever we change a route on a React application, say from `hello.com` to `hello.com/learn/react`, the browser only makes it _look like_ the page has been changed. In reality, we're on the same HTML `div` element, just that a new virtual DOM has been attached to it.
+:::
+
 ### 7. Event Lifecycle
 
 There are 4 main stages in the life of a page.

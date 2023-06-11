@@ -3,6 +3,7 @@ import styled from '@emotion/styled';
 import Link from '@docusaurus/Link';
 
 import { Text } from '../common'
+import {sm } from '../utils'
 
 export const Page = () => {
   return (
@@ -15,18 +16,17 @@ export const Page = () => {
             <Text size={14} margin="10px 0 0">Learn the basics of ReactJS and front-end development</Text>
           </Card>
         </Link>
-          
           <Card>
             <Text weight={700} size={28} lineHeight={1.2}>Computation engine</Text>
             <Text size={12} color="#C9CCCC">Productivity</Text>
             <Text size={14} margin="10px 0 0">MacOS menubar calculator app</Text>
           </Card>
       </MenuContainer>
-        <MessageContainer>
-          <BigText size={84}>Hello there,</BigText>
-          <BigText size={42} delayed>
-            welcome to my page.
-          </BigText>
+      <MessageContainer>
+        <BigText size={84}>Hello there,</BigText>
+        <BigText size={42} delayed>
+          welcome to my page.
+        </BigText>
       </MessageContainer>
     </PageWrapper>
   );
@@ -60,10 +60,17 @@ const PageWrapper = styled.div`
       opacity: 1;
     }
   }
+
+  ${sm} {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  
 `;
 
 const MenuContainer = styled.div`
-  margin: 20% 10px 0 10%;
+  margin: 20% 10px 0 50px;
   animation: appear 1200ms ease 500ms backwards;
 
   a {
@@ -71,10 +78,18 @@ const MenuContainer = styled.div`
     text-decoration: none;
     transition: none;
   }
+
+  ${sm} {
+    margin: 50px;
+  }
 `;
 
 const MessageContainer = styled.div`
   margin: 20px 10% 0 10px;
+
+  ${sm} {
+    margin: 50px;
+  }
 `;
 
 const BigText = styled.div`
