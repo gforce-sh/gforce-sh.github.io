@@ -28,3 +28,11 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.linkedin-icon {
+  content: '';
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background: url("/img/linkedin-icon.svg") no-repeat;
+}
