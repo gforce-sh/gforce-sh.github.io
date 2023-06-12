@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 import styled from '@emotion/styled';
 import Link from '@docusaurus/Link';
 
-import { Text } from '../common'
-import {sm } from '../utils'
+import { Text } from '../common';
+import { xs, sm } from '../utils';
 
 export const Page = () => {
   return (
@@ -11,16 +11,28 @@ export const Page = () => {
       <MenuContainer>
         <Link to="/basics-react">
           <Card>
-            <Text weight={700} size={28} lineHeight={1.2}>React basics</Text>
-            <Text size={12} color="#C9CCCC">Gitbook course</Text>
-            <Text size={14} margin="10px 0 0">Learn the basics of ReactJS and front-end development</Text>
+            <Text weight={700} size={28} lineHeight={1.2}>
+              React basics
+            </Text>
+            <Text size={12} color="#C9CCCC">
+              Gitbook course
+            </Text>
+            <Text size={14} margin="10px 0 0">
+              Learn the basics of ReactJS and front-end development
+            </Text>
           </Card>
         </Link>
-          <Card>
-            <Text weight={700} size={28} lineHeight={1.2}>Computation engine</Text>
-            <Text size={12} color="#C9CCCC">Productivity</Text>
-            <Text size={14} margin="10px 0 0">MacOS menubar calculator app</Text>
-          </Card>
+        <Card>
+          <Text weight={700} size={28} lineHeight={1.2}>
+            Computation engine
+          </Text>
+          <Text size={12} color="#C9CCCC">
+            Productivity
+          </Text>
+          <Text size={14} margin="10px 0 0">
+            MacOS menubar calculator app
+          </Text>
+        </Card>
       </MenuContainer>
       <MessageContainer>
         <BigText size={84}>Hello there,</BigText>
@@ -37,7 +49,7 @@ const PageWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 50px 20px;
+  padding: 20px;
 
   color: white;
 
@@ -64,9 +76,13 @@ const PageWrapper = styled.div`
   ${sm} {
     flex-direction: column-reverse;
     align-items: center;
+    justify-content: space-around;
+    height: 100%;
   }
 
-  
+  ${xs} {
+    align-items: space-between;
+  }
 `;
 
 const MenuContainer = styled.div`
@@ -80,7 +96,11 @@ const MenuContainer = styled.div`
   }
 
   ${sm} {
-    margin: 50px;
+    margin: 0;
+  }
+
+  ${xs} {
+    margin-bottom: 50px;
   }
 `;
 
@@ -103,16 +123,16 @@ const BigText = styled.div`
 `;
 
 const Card = styled.div`
-    padding: 20px;
-    background-color: #000;
-    opacity: 0.6;
-    border-radius: 5px;
-    color: #fff;
-    margin: 10px;
-    cursor: pointer;
-    width: 350px;
+  padding: 20px;
+  background-color: #000;
+  opacity: 0.6;
+  border-radius: 5px;
+  color: #fff;
+  margin: 10px;
+  cursor: pointer;
+  width: 350px;
 
-    :hover {
-      opacity: 0.75
-    }
-`
+  :hover {
+    opacity: 0.75;
+  }
+`;

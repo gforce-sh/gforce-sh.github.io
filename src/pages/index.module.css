@@ -3,11 +3,11 @@
  * and scoped locally.
  */
 
- .App {
-    background-image: url('../../static/img/universe.jpeg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
- }
+.App {
+  background-image: url('../../static/img/universe.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
