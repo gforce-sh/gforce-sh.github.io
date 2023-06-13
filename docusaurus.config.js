@@ -77,7 +77,7 @@ const config = {
             type: 'html',
             position: 'right',
             value:
-              '<a className="linkedin-link" href="https://www.linkedin.com/in/gaurav-sh/" style="content: \'\'; width: 24px; height: 24px; background-image: url(\'/img/linkedin-icon.svg\'); background-repeat: no-repeat;  background-size: 24px 24px; display: flex" />',
+              '<a className="linkedin-icon-right differentiator" href="https://www.linkedin.com/in/gaurav-sh/" style="content: \'\'; width: 24px; height: 24px; background-image: url(\'/img/linkedin-icon.svg\'); background-repeat: no-repeat;  background-size: 24px 24px; display: flex" />',
           },
         ],
         hideOnScroll: true,
