@@ -71,6 +71,11 @@ const config = {
         logo: {
           alt: 'Site Logo',
           src: 'img/js-logo.png',
+          href: '/basics-react',
+          target: '_self',
+          width: 32,
+          height: 32,
+          className: 'custom-navbar-logo-class',
         },
         items: [
           {
