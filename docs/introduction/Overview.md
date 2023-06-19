@@ -31,6 +31,6 @@ slug: overview
   - Component re-usability
   - Component hierarchy
   - Flow of information
-- Unit testing using Jest
-- React state components (legacy)
 - Over the horizon: the React ecosystem
+  - Unit testing with Jest
+  - Stateful components (legacy)
