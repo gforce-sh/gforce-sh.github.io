@@ -79,11 +79,10 @@ const config = {
         },
         items: [
           {
-            type: 'html',
-            position: 'right',
             className: 'linkedin-icon',
-            value:
-              '<a className="lnkdn-ic-right differentiator" href="https://www.linkedin.com/in/gaurav-sh/" style="content: \'\'; width: 24px; height: 24px; background-image: url(\'/img/linkedin-icon.svg\'); background-repeat: no-repeat;  background-size: 24px 24px; display: flex" />',
+            href: 'https://www.linkedin.com/in/gaurav-sh/',
+            position: 'right',
+            target: '_blank',
           },
         ],
         hideOnScroll: true,
