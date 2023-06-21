@@ -5,6 +5,8 @@ import { Page } from '../components/Page';
 import ErrorBoundary from '../components/ErrorBoundary';
 import background from '@site/static/img/universe.jpeg';
 
+import '../css/semantic/semantic.css';
+
 export default function Home() {
   return (
     <AppContainer>
