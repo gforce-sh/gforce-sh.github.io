@@ -33,4 +33,3 @@ slug: overview
   - Flow of information
 - Over the horizon: the React ecosystem
   - Unit testing with Jest
-  - Stateful components (legacy)

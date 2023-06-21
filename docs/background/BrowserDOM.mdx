@@ -3,9 +3,11 @@ sidebar_position: 1
 slug: browser-dom
 ---
 
+import { Image } from 'semantic-ui-react';
+
 # How browsers work
 
-![howBrowsersWork](./assets/howBrowsersWork.png)
+<Image src={require('./assets/howBrowsersWork.png').default} size="big" />
 
 - **User interface:** The browser's GUI including address bar, forward/back buttons, bookmarks list, zoom tool etc. This does _not_ include the webpage that the browser is rendering.
 - **Browser engine:** Relays actions and information between the GUI and rendering engine.
@@ -13,7 +15,7 @@ slug: browser-dom
 
 ## Document Object Model (DOM)
 
-![DOM](./assets/dom.png)
+<Image src={require('./assets/dom.png').default} size="big" />
 
 :::tip
 Open browser devtools by right-clicking on web page > inspect

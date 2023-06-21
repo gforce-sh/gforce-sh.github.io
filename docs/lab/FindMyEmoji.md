@@ -7,7 +7,7 @@ slug: find-my-emoji
 
 Fork the following repo:
 
-> [https://github.com/gaurav-me/cs-smu-demo](https://github.com/gaurav-me/cs-smu-demo)
+[https://github.com/gaurav-me/cs-smu-demo](https://github.com/gaurav-me/cs-smu-demo)
 
 We are going to work on the `main` branch (a sample react app is setup on the `react-app-template` branch).
 

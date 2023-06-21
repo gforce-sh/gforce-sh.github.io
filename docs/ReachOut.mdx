@@ -10,6 +10,8 @@ import { MentiFeedbackTabs } from './background/components/MentiFeedbackTabs';
 We'd love to hear your feedback! Reach out to us on Linkedin, or anonymously via menti. We'd also be happy to answer any questions you might still have.
 
 <MentiFeedbackTabs
-  qrcodeLink="img/mentimeter_feedback_qrcode.png"
+  qrcodeLink={
+    require('./background/assets/mentimeter_feedback_qrcode.png').default
+  }
   mentiLink="https://www.menti.com/alj3tk7f223p"
 />
