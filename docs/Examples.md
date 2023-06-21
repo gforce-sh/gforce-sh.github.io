@@ -11,13 +11,10 @@ slug: /examples
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![airbnb](./background/assets/airbnb-example.jpg)
 
-### 2. [Snaphunt](https://snaphunt.com/)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![snaphunt](./background/assets/snaphunt-example.jpg)
-
 ## Other examples
 
-3. [Cloudfare](https://www.cloudflare.com/)
-4. [tribe digital](https://tribe.digital/insights)
+2. [Cloudfare](https://www.cloudflare.com/)
+3. [tribe digital](https://tribe.digital/insights)
+4. [Snaphunt](https://snaphunt.com/)
 5. Dropbox
 6. Facebook and Instagram
