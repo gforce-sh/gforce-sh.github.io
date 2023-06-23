@@ -3,13 +3,33 @@ sidebar_position: 1
 slug: /
 ---
 
+import { Reveal, Image } from 'semantic-ui-react';
 import { MentiFeedbackTabs } from './background/components/MentiFeedbackTabs';
 
 # Preface
 
 ### What will we learn?
 
-In this workshop we learn the basics of React and related web technologies so that we can create a frontend application capable of
+<Reveal style={{ width: 'fit-content' }} animated="fade">
+  <Reveal.Content visible>
+    <Image
+      src={require('./background/assets/front-back-separation.png').default}
+      size="big"
+      style={{ marginBottom: 20 }}
+    />
+  </Reveal.Content>
+  <Reveal.Content hidden>
+    <Image
+      src={
+        require('./background/assets/front-back-separation-cover.png').default
+      }
+      size="big"
+      style={{ marginBottom: 20 }}
+    />
+  </Reveal.Content>
+</Reveal>
+
+In this workshop, we learn the basics of React and related web technologies so that we can create a frontend application capable of
 
 - consuming remote endpoints to fetch data, and
 - consisting of multiple pages connected via routes (eg hello.com, hello.com/learn, hello.com/learn/react)
@@ -33,9 +53,9 @@ This workshop is the first step in understanding a modern frontend framework, an
   </div>
   <div>
     My name is Gaurav, I graduated from NUS in 2016, and then again in 2022. I
-    am a software engineer at Credit Suisse APAC Wealth Management (WM)
-    Technology. Together with Noorul and Benedita, I work on Digital Private
-    Banking (DPB) software.
+    am a software engineer at Credit Suisse APAC Wealth Management Technology.
+    Together with Noorul and Benedita, I work on Digital Private Banking
+    software.
   </div>
 </div>
 

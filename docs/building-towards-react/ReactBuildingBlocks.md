@@ -7,13 +7,15 @@ slug: composition-data-event-lifecycle
 
 ### 2. React Components
 
-React lets us split UI into independent, reusable pieces called 'Components`, so that we can think about each piece in isolation nd test each component in isolation.
+React lets us split UI into independent, reusable pieces called 'Components`, so that we can think about each piece in isolation and test each component in isolation.
 
 ```
 const App = () => {
   return <p>Hello React</p>;
 };
 ```
+
+[(See on Codepen)](https://codepen.io/grvshrm/pen/ZEmBYLp)
 
 A react component is simply the declaration of a component as above. In this case, it's a **_Functional component_**, but can be a **_Class component_** too. **A functional component is declared as a JavaScript function which returns JSX**.
 
@@ -45,7 +47,7 @@ const Greeting = ({ text }) => {
 };
 
 const App = () => {
-  return <Greeting text="Hello React" />;
+  return <Greeting text={"Hello React"} />;
 };
 ```
 
@@ -70,7 +72,7 @@ A React application would typically need to maintain some state information. For
 - Destination
 - Type of transport request (4-seater, premium, van etc)
 
-In React, a state is a simple JS object, that can be stored interally in a component.
+In React, a state is a simple JS object, that can be stored internally in a component, whose value is persisted across re-renders.
 
 - A state should be private to the component it is created in.
 - If we violate this principle of encapsulation, we end up with tighly coupled code that is hard to interpret, change and extend. **We don't want to do this**.
@@ -85,7 +87,7 @@ const App = () => {
 
     return (
         <div>
-            <button onClick={() => setState("Hello React")}>Click me to set state!</Button>
+            <button onClick={() => setState("Hello React")}>Click me to set state!</button>
             <p>{state}</p>
         </div>
     );
