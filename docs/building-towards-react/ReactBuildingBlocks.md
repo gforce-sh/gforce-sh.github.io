@@ -98,7 +98,7 @@ We'll see it in action in the demo later.
 
 ### 6. Rendering a virtual DOM
 
-A React application is composed of such components and elements. React reads these components and formulates a 'virtual DOM', that it then attaches to one DOM node specified by our 1 line of HTML. This attachment is done as follows:
+A React application is composed of such components and elements. React reads these components and formulates a 'virtual DOM', that it then attaches to one DOM node specified by our single line of HTML. This attachment is done as follows:
 
 HTML
 
