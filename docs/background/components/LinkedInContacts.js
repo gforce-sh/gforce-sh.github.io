@@ -16,7 +16,14 @@ export const LinkedInContacts = () => (
         <HeaderWrapper>
           <Header as="h3">{contact.name}</Header>
         </HeaderWrapper>
-        <Icon name="linkedin" size="large" link />
+        <a
+          href={contact.link}
+          rel="noopener noreferrer"
+          target="_blank"
+          style={{ color: '#000', textDecoration: 'none' }}
+        >
+          <Icon name="linkedin" size="large" link />
+        </a>
       </ContactContainer>
     ))}
   </Wrapper>
