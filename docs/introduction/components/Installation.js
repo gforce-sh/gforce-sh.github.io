@@ -4,13 +4,9 @@ import { Text } from '../../../src/common';
 export const InstallationMac = () => {
   return (
     <div>
-      <Text size={24} weight={700}>
-        Node
-      </Text>
-
       <div css={{ display: 'flex', alignItems: 'center' }}>
         <div css={{ marginRight: 5 }}>
-          {'It is recommended to install using '}
+          {'Install using '}
         </div>
         <a
           css={{ color: 'orange', textDecoration: 'none', fontWeight: 500 }}
@@ -43,12 +39,8 @@ export const InstallationMac = () => {
 export const InstallationWin = () => {
   return (
     <div>
-      <Text size={24} weight={700}>
-        Node
-      </Text>
-
       <div css={{ display: 'flex', alignItems: 'center' }}>
-        <div css={{ marginRight: 5 }}>It is recommended to install using</div>
+        <div css={{ marginRight: 5 }}>Install using</div>
         <a
           css={{ color: 'orange', textDecoration: 'none', fontWeight: 500 }}
           href="https://github.com/coreybutler/nvm-windows"
@@ -75,6 +67,26 @@ export const InstallationWin = () => {
         To install Node
       </Text>
       <code>choco install nodejs-lts</code>
+    </div>
+  );
+};
+
+export const InstallationLinux = () => {
+  return (
+    <div>
+      <div css={{ marginRight: 5 }}>Install using</div>
+      <a
+        css={{ color: 'orange', textDecoration: 'none', fontWeight: 500 }}
+        href="https://github.com/nvm-sh/nvm"
+        rel="noopener noreferrer"
+      >
+        nvm-sh
+      </a>
+      <div>. Nvm-sh allows easy switch between node versions.</div>
+
+      <code>curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash</code>
+      <code>source ~/.bashrc</code>
+      <code>nvm install v20</code>
     </div>
   );
 };

@@ -6,20 +6,20 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'React Basics',
-  tagline: 'A hands-on introductory course by Gaurav Sharma',
-  favicon: 'img/js-logo.png',
+  title: 'The Page',
+  tagline: "Things I've learned by Gaurav Sharma",
+  favicon: 'img/book-logo-128.png',
 
   // Set the production url of your site here
-  url: 'https://gaurav-me.github.io',
+  url: 'https://gforce-sh.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'gaurav-me', // Usually your GitHub org/user name.
-  projectName: 'gaurav-me.github.io', // Usually your repo name.
+  organizationName: 'gforce-sh', // Usually your GitHub org/user name.
+  projectName: 'gforce-sh.github.io', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -51,7 +51,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Change to '/' to make docs the landing page
-          routeBasePath: 'basics-react',
+          routeBasePath: 'react-basics',
         },
         blog: false,
         theme: {
@@ -71,7 +71,7 @@ const config = {
         logo: {
           alt: 'Site Logo',
           src: 'img/js-logo.png',
-          href: '/basics-react',
+          href: '/react-basics',
           target: '_self',
           width: 32,
           height: 32,

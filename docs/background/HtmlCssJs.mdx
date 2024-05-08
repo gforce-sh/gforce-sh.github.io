@@ -117,8 +117,8 @@ https://codepen.io/grvshrm/pen/eYPoPzw
 
 ### What are the issues here?
 
-1. This is an _imperative_ approach to writing software. Our Javascript code is tightly coupled to the HTML elements, and we have to explicitly define which unique HTML element we want to change.
-2. This coupling resuls in unintended changes that break our application. For example, if we add a new HTML tag to the top of the page, our current webpage would break, because `timeParagraph` would no longer be the `0th` element in the `paragraphs` array.
-3. How do we unit test this?
+1. This is an _imperative_ approach to writing software. Imperative programming is a paradigm where we explicitly state how the program should achieve the desired result. Our approach is imerative as our Javascript code is tightly coupled to the HTML elements, and we have to explicitly define which unique HTML element we want to change.
+2. This coupling results in unintended changes that break our application. For example, if we add a new HTML tag to the top of the page, our current webpage would break, because `timeParagraph` would no longer be the `0th` element in the `paragraphs` array.
+3. How do we unit test this? Unit testing is breaking down the functionality of our application into singular units, and writing code that individually tests if these units work as expected.
 4. How can we modularise a unit bit of functionality? There will be a lot of code replication as the application grows bigger.
 5. Imperative implementations are verbose because DOM manipulations are a rather long-drawn process.
