@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'The Page',
   tagline: "Things I've learned by Gaurav Sharma",
-  favicon: 'img/book-logo-128.png',
+  favicon: 'img/book-logo-64.png',
 
   // Set the production url of your site here
   url: 'https://gforce-sh.github.io',

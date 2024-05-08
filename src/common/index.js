@@ -5,7 +5,7 @@ export const Text = styled.div`
   ${({ color }) => (color ? `color: ${color};` : null)}
   ${({ weight }) => (weight ? `font-weight: ${weight};` : null)};
   ${({ padding }) => (padding ? `padding: ${padding};` : null)};
-  ${({ margin }) => (margin ? `padding: ${margin};` : null)};
+  ${({ margin }) => (margin ? `margin: ${margin};` : null)};
   ${({ lineHeight }) => (lineHeight ? `line-height: ${lineHeight};` : null)};
   ${({ display }) => (display ? `display: ${display};` : null)};
 `;

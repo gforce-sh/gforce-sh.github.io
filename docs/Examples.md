@@ -13,8 +13,7 @@ slug: /examples
 
 ## Other examples
 
-2. [Cloudfare](https://www.cloudflare.com/)
-3. [tribe digital](https://tribe.digital/insights)
-4. [Snaphunt](https://snaphunt.com/)
-5. Dropbox
-6. Facebook and Instagram
+2. [Cloudflare](https://www.cloudflare.com/)
+3. [Snaphunt](https://snaphunt.com/)
+4. Dropbox
+5. Facebook and Instagram

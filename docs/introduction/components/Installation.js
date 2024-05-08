@@ -1,4 +1,3 @@
-import { jsx, css } from '@emotion/react';
 import { Text } from '../../../src/common';
 
 export const InstallationMac = () => {
@@ -74,19 +73,36 @@ export const InstallationWin = () => {
 export const InstallationLinux = () => {
   return (
     <div>
-      <div css={{ marginRight: 5 }}>Install using</div>
-      <a
-        css={{ color: 'orange', textDecoration: 'none', fontWeight: 500 }}
-        href="https://github.com/nvm-sh/nvm"
-        rel="noopener noreferrer"
-      >
-        nvm-sh
-      </a>
-      <div>. Nvm-sh allows easy switch between node versions.</div>
-
-      <code>curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash</code>
-      <code>source ~/.bashrc</code>
-      <code>nvm install v20</code>
+      <div css={{ display: 'flex', alignItems: 'center' }}>
+        <div css={{ marginRight: 5 }}>Install using</div>
+        <a
+          css={{ color: 'orange', textDecoration: 'none', fontWeight: 500 }}
+          href="https://github.com/nvm-sh/nvm"
+          rel="noopener noreferrer"
+        >
+          nvm-sh
+        </a>
+        <div>. Nvm-sh allows easy switch between node versions.</div>
+      </div>
+      <Text margin="20px 0 0 0" weight={500} size={16}>
+        Steps
+      </Text>
+      <div>
+        <Text margin="10px 0 0 0" size={16}>Install nvm:</Text>
+        <code>curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash</code>
+      </div>
+      <div>
+        <Text margin="20px 0 0 0" size={16}>The script from the previous step updates the bashrc file. We need to source the updated file:</Text>
+        <code>source ~/.bashrc</code>
+      </div>
+      <div>
+        <Text margin="20px 0 0 0" size={16}>Finally, install the node version you'd like:</Text>
+        <code>nvm install v20</code>
+      </div>
+      <div>
+        <Text margin="20px 0 0 0" size={16}>To switch between node versions:</Text>
+        <code>nvm use 20</code>
+      </div>
     </div>
   );
 };
