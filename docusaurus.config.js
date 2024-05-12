@@ -5,6 +5,9 @@ const { themes } = require('prism-react-renderer');
 const lightTheme = themes.github;
 const darkTheme = themes.dracula;
 
+const DOMAIN = 'gforce-sh.github.io';
+const REACT_PATH = 'react-basics';
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'The Page',
@@ -12,7 +15,7 @@ const config = {
   favicon: 'img/book-logo-64.png',
 
   // Set the production url of your site here
-  url: 'https://gforce-sh.github.io',
+  url: `https://${DOMAIN}`,
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -20,7 +23,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'gforce-sh', // Usually your GitHub org/user name.
-  projectName: 'gforce-sh.github.io', // Usually your repo name.
+  projectName: DOMAIN, // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -52,7 +55,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Change to '/' to make docs the landing page
-          routeBasePath: 'react-basics',
+          routeBasePath: REACT_PATH,
         },
         blog: false,
         theme: {
@@ -72,7 +75,7 @@ const config = {
         logo: {
           alt: 'Site Logo',
           src: 'img/js-logo.png',
-          href: '/react-basics',
+          href: `/${REACT_PATH}`,
           target: '_self',
           width: 32,
           height: 32,
@@ -80,10 +83,10 @@ const config = {
         },
         items: [
           {
-            className: 'linkedin-icon',
-            href: 'https://www.linkedin.com/in/gaurav-sh/',
+            className: 'book-icon',
+            href: '/',
+            target: '_self',
             position: 'right',
-            target: '_blank',
           },
         ],
         hideOnScroll: true,
