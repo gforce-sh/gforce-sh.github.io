@@ -42,11 +42,18 @@
 
 .book-icon {
     content: '';
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
     background-image: url('/img/book-logo-64.png');
     background-repeat: no-repeat;
-    background-size: 24px 24px;
+    background-size: 20px 20px;
     display: flex;
     margin-right: 10px;
+}
+
+.book-icon:hover {
+    width: 24px;
+    height: 24px;
+    background-size: 24px 24px;
+    margin-right: 12px;
 }
