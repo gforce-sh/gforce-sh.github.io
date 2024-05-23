@@ -1,15 +1,9 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 slug: find-my-emoji
 ---
 
-# #1: Find my emoji
-
-Fork the following repo:
-
-[https://github.com/gaurav-me/cs-smu-demo](https://github.com/gaurav-me/cs-smu-demo)
-
-We are going to work on the `main` branch (a sample react app is setup on the `react-app-template` branch).
+# #2: Find my emoji
 
 In this lab, we will learn how to filter and render emojis from a static list.
 
