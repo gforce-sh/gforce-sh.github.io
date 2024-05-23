@@ -5,8 +5,6 @@ slug: count-my-emoji
 
 # #1: Count my emoji
 
-counter
-
 Clone the following repo:
 
 [https://github.com/gforce-sh/ubs-smu-demo](https://github.com/gforce-sh/ubs-smu-demo)
@@ -19,5 +17,6 @@ In this lab, we will learn how to update and reset a simple counter by 1.
 
 > Useful links:
 >
-> - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+> - [CSS - MDN docs](https://developer.mozilla.org/en-US/docs/Web/CSS)
+> - [HTML & CSS - Internetingishard](https://internetingishard.netlify.app/html-and-css/)
 > - [styled-components](https://styled-components.com/docs/api#styled)

@@ -22,9 +22,10 @@ slug: overview
     - Lifecycle
     - React Hooks
 - Code along: a basic React application
-  - Lab 1: Emoji searching (Filter and render emojis)
-  - Lab 2: Emoji fetching (Consume a remote endpoint)
-  - Lab 3: Emoji routing (Create routing between pages)
+  - Lab 1: Emoji counting (Update a counter)
+  - Lab 2: Emoji searching (Filter and render a list)
+  - Lab 3: Emoji fetching (Consume a remote endpoint)
+  - Lab 4: Emoji routing (Create routing between pages)
 - Summing up the key development concepts of React
   - Modularisation
   - Declarative vs Imperative

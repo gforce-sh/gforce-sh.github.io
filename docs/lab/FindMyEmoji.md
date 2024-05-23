@@ -15,7 +15,6 @@ In this lab, we will learn how to filter and render emojis from a static list.
 > - [JS .includes() method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
 > - [Semantic-ui react](https://react.semantic-ui.com/)
 > - [EmotionJS (css-in-js)](https://emotion.sh/docs/introduction)
-> - [styled-components](https://styled-components.com/docs/api#styled)
 
 > Further practice:
 >
