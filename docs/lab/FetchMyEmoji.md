@@ -16,12 +16,13 @@ In this lab, we will learn how to consume a public API and render a dynamic list
 > Useful links:
 >
 > - [JS fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
-> - [Lodash debounce](https://lodash.com/docs/#debounce)
-
-    and [npm package](https://www.npmjs.com/package/lodash.debounce)
-
+> - [Lodash debounce](https://lodash.com/docs/#debounce) ([npm package](https://www.npmjs.com/package/lodash.debounce))
 > - [React hooks docs](https://react.dev/reference/react)
 
 > Further reading:
 >
 > - [React query](https://tanstack.com/query/latest/)
+> - Try to use react-query to implement data fetching.
+
+- Can you see observe that the cached responses prevent fresh API requests?
+  > - Hint: use the fetch utility with react-query.

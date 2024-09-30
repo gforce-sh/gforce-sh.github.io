@@ -47,7 +47,7 @@ export const InstallationMac = () => {
       <Text size={16} weight={500} padding="20px 0 0">
         To install Node
       </Text>
-      <code>brew install node@18</code>
+      <code>brew install node@20</code>
     </div>
   );
 };
@@ -101,7 +101,7 @@ export const InstallationWin = () => {
       <Text size={16} weight={500} padding="20px 0 0">
         To install Node
       </Text>
-      <code>choco install nodejs-lts</code>
+      <code>choco install nodejs --version=20.9.0</code>
     </div>
   );
 };

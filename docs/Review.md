@@ -18,9 +18,11 @@ The architecture of components, how they are composed and how they communicate w
 scalable application. Realising this architecture is generally not step one. We should have an idea of what the
 design of our application will look like just as we're starting to implement the app, but this will likely evolve and
 improve as the granular details of our implementation become clearer, as we begin to identify code that overlaps in our
-implementation, or as the business requirements evolve over
-time. We need to constantly **refactor** our implementation to reflect a cleaner and more understandable design, _and we
-generally only have clarity of this final architecture just prior to the final refactor_.
+implementation, or as the business requirements evolve over time. We need to constantly **refactor** our implementation
+to reflect a cleaner and more understandable design, _and we
+generally only have clarity of this final architecture just prior to the final refactor_. It is therefore imperative
+that we write code in an agile manner, following OOP and SOLID principles. This ensures we can make changes sustainably
+and with the least effort.
 
 Ultimately, as you spend more time working on React applications, how you reach the "big picture" will become clearer
 to you.

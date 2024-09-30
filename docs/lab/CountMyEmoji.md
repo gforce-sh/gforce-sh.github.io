@@ -20,3 +20,10 @@ In this lab, we will learn how to update and reset a simple counter by 1.
 > - [CSS - MDN docs](https://developer.mozilla.org/en-US/docs/Web/CSS)
 > - [HTML & CSS - Internetingishard](https://internetingishard.netlify.app/html-and-css/)
 > - [styled-components](https://styled-components.com/docs/api#styled)
+
+> Further practice:
+>
+> 1. Can we store a history of numbers displayed, with the list shown beneath the reset button?
+> 2. Can we use this template to create a simple calculator? The calculator should support basic addition, subtraction,
+
+     multiplication and division.
