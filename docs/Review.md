@@ -29,13 +29,7 @@ to you.
 
 #### How did we refactor our demo app?
 
-- We initially placed all our UI JSX to show 1 emoji row directly inside `App`, when we wanted to just get the
-  application up and running. First, we refactored this UI into the `EmojiRow` component.
-
-Subsequently, our `App` component consisted of several `EmojiRow`s and the Input components. Our second refactor was to
-group `Input` and `EmojiRow`s inside a new `EmojiSearch` component. This added semantic meaning by separating the
-responsibility of `App` and `EmojiSearch`. This also gave us a clean enough architecture to integrate `Routes`
-into `App` in exercise 3.
+We initially placed all our UI JSX to show 1 emoji row directly inside `App`, when we wanted to just get the application up and running. First, we refactored this UI into the `EmojiRow` component. Subsequently, our `App` component consisted of several `EmojiRow`s and the Input components. Our second refactor was to group `Input` and `EmojiRow`s inside a new `EmojiSearch` component. This added semantic meaning by separating the responsibility of `App` and `EmojiSearch`. This also gave us a clean enough architecture to integrate `Routes` into `App` in exercise 3.
 
 ### Examples of how we used key development concepts of React in our demo?
 

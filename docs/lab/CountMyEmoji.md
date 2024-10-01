@@ -9,7 +9,7 @@ Clone the following repo:
 
 [https://github.com/gforce-sh/react-exercise](https://github.com/gforce-sh/react-exercise)
 
-We are going to work on the `main` branch (a sample react app is setup on the `react-app-template` branch).
+We are going to work on the `main` branch (a sample react app is set up on the `react-app-template` branch).
 
 In this lab, we will learn how to update and reset a simple counter by 1.
 
