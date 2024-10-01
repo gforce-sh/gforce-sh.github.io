@@ -7,7 +7,7 @@ slug: count-my-emoji
 
 Clone the following repo:
 
-[https://github.com/gforce-sh/ubs-smu-demo](https://github.com/gforce-sh/ubs-smu-demo)
+[https://github.com/gforce-sh/react-exercise](https://github.com/gforce-sh/react-exercise)
 
 We are going to work on the `main` branch (a sample react app is setup on the `react-app-template` branch).
 
