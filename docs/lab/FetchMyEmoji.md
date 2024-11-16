@@ -22,7 +22,5 @@ In this lab, we will learn how to consume a public API and render a dynamic list
 > Further reading:
 >
 > - [React query](https://tanstack.com/query/latest/)
-> - Try to use react-query to implement data fetching.
-
-- Can you see observe that the cached responses prevent fresh API requests?
-  > - Hint: use the fetch utility with react-query.
+> - Try to use react-query to implement data fetching. (Hint: use the fetch utility with react-query.)
+> - Can you test whether the cached responses prevent fresh API requests?
