@@ -3,40 +3,31 @@ sidebar_position: 1
 slug: /
 ---
 
-import { Reveal, Image } from 'semantic-ui-react';
-import { MentiFeedbackTabs } from './background/components/MentiFeedbackTabs';
-
 # Preface
 
-### What will we learn?
+### About
 
-<Reveal style={{ width: 'fit-content' }} animated="fade">
-  <Reveal.Content visible>
-    <Image
-      src={require('./background/assets/front-back-separation.png').default}
-      size="big"
-      style={{ marginBottom: 20 }}
-    />
-  </Reveal.Content>
-  <Reveal.Content hidden>
-    <Image
-      src={
-        require('./background/assets/front-back-separation-cover.png').default
-      }
-      size="big"
-      style={{ marginBottom: 20 }}
-    />
-  </Reveal.Content>
-</Reveal>
+This e-book contains knowledge of modern application development and healthy
+software engineering principles that I have learned in my time as a
+a technologist in the banking industry and at university. The content is
+written with an emphasis to help readers pick up these skills for themselves.
+I have included several exercises to help reinforce concepts. I like to
+start small, iterate quickly and scale big, and the content of this book may
+reflect this approach.
 
-In this workshop, we learn the basics of React and related web technologies so that we can create a frontend application capable of
+So far, this book contains:
 
-- consuming remote endpoints to fetch data, and
-- consisting of multiple pages connected via routes (eg hello.com, hello.com/learn, hello.com/learn/react)
+1. a course on frontend development using React, a
+   modern, flexible and time-tested framework,
+2. a course on component-driven development, an effective technique to develop
+   and manage expansive applications,
+3. my notes on clean-coding principles.
 
-This workshop is the first step in understanding a modern frontend framework, and should set you up to not only be able to create basic applications, but also make exploring further into frontend development more approachable.
+This content is continually updated, and more is on the way. To reach
+out to me directly, please head to the last chapter - ![Reach out](./ReachOut.
+mdx).
 
-### Who is the speaker?
+### Who is the author?
 
 <div style={{ display: 'flex', alignItems: 'center' }}>
   <div style={{ marginRight: 20, flexShrink: 0 }}>
@@ -53,24 +44,13 @@ This workshop is the first step in understanding a modern frontend framework, an
   </div>
   <div>
     My name is Gaurav Sharma (NUS '16, '22). I am a team lead at UBS Wealth
-    Management (Touchpoints) Technology. My team and I work on Digital Private
-    Banking software, a client-facing platform. We work extensively with ReactJs
-    based frontends.
+    Management Technology. My team and I work on Digital Banking software, a
+    client-facing platform. We work extensively with ReactJs-based frontends and
+    JVM-based backends. Code quality and reliability is critical in the banking
+    and financial services industry, and I place great emphasis on agile
+    engineering.
   </div>
 </div>
-
-### What prior knowledge do we need to have?
-
-You can be completely new to React. However, you will need to know the fundamentals of HTML, CSS and Javascript, because React is based on them.
-
-### How can we ask questions in real-time?
-
-<MentiFeedbackTabs
-  qrcodeLink={
-    require('./background/assets/mentimeter_questions_qrcode.png').default
-  }
-  mentiLink="https://www.menti.com/al2upujih1h6"
-/>
 
 ### License
 

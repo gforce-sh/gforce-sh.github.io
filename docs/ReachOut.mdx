@@ -1,19 +1,20 @@
 ---
-sidebar_position: 8
+sidebar_position: 4
 slug: /feedback
 ---
 
-import { MentiFeedbackTabs } from './background/components/MentiFeedbackTabs';
+import { MentiFeedbackTabs } from './react-js/introduction/components/MentiFeedbackTabs';
 
-# Reach out to us!
+# Reach out!
 
-Please send in your feedback! Reach out to us on LinkedIn or via Menti. We'd also be happy to answer any questions you might still have.
+Please send in your feedback! Reach out on LinkedIn or via Menti. Also happy to answer any questions you might still have.
 
 ## Menti
 
 <MentiFeedbackTabs
   qrcodeLink={
-    require('./background/assets/mentimeter_feedback_qrcode.png').default
+    require('./react-js/background/assets/mentimeter_feedback_qrcode.png')
+      .default
   }
   mentiLink="https://www.menti.com/alj3tk7f223p"
 />

@@ -56,6 +56,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Change to '/' to make docs the landing page
           routeBasePath: REACT_PATH,
+          sidebarCollapsed: false,
         },
         blog: false,
         theme: {

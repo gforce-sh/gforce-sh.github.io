@@ -1,4 +1,4 @@
-import { Text } from '../../../src/common';
+import { Text } from '../../../../src/common';
 
 export const InstallationMac = () => {
   return (

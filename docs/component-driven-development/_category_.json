@@ -1,0 +1,8 @@
+{
+  "label": "Component-driven development",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Building composite components using Storybook"
+  }
+}
