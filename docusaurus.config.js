@@ -56,7 +56,8 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Change to '/' to make docs the landing page
           routeBasePath: REACT_PATH,
-          sidebarCollapsed: false,
+          // sidebarCollapsed: false,
+          exclude: ['**/clean-code/**'],
         },
         blog: false,
         theme: {
@@ -70,12 +71,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/js-logo.png',
+      image: 'img/book-logo-64.png',
       navbar: {
-        title: 'React Basics',
+        title: 'Software Basics',
         logo: {
           alt: 'Site Logo',
-          src: 'img/js-logo.png',
+          src: 'img/book-logo-64.png',
           href: `/${REACT_PATH}`,
           target: '_self',
           width: 32,
