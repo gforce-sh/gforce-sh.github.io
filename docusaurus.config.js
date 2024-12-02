@@ -6,7 +6,7 @@ const lightTheme = themes.github;
 const darkTheme = themes.dracula;
 
 const DOMAIN = 'gforce-sh.github.io';
-const REACT_PATH = 'react-basics';
+const BOOK_PATH = 'software-basics';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -55,7 +55,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Change to '/' to make docs the landing page
-          routeBasePath: REACT_PATH,
+          routeBasePath: BOOK_PATH,
           // sidebarCollapsed: false,
           exclude: ['**/clean-code/**'],
         },
@@ -77,7 +77,7 @@ const config = {
         logo: {
           alt: 'Site Logo',
           src: 'img/book-logo-64.png',
-          href: `/${REACT_PATH}`,
+          href: `/${BOOK_PATH}`,
           target: '_self',
           width: 32,
           height: 32,

@@ -9,25 +9,25 @@ export const Page = () => {
   return (
     <PageWrapper>
       <MenuContainer>
-        <Link to="/react-basics">
+        <Link to="/software-basics">
           <Card>
             <Text weight={700} size={28} lineHeight={1.2}>
-              React basics
+              Software basics
             </Text>
             <Text size={12} color="#C9CCCC">
               Gitbook course
             </Text>
             <Text size={14} margin="10px 0 0">
-              Learn the basics of ReactJS and frontend development
+              Learn the basics of web application development
             </Text>
           </Card>
         </Link>
-        <Card>
+        <Card disabled>
           <Text weight={700} size={28} lineHeight={1.2}>
             A handy calculator
           </Text>
           <Text size={12} color="#C9CCCC">
-            Productivity
+            Productivity · Coming soon
           </Text>
           <Text size={14} margin="10px 0 0">
             MacOS menubar calculator app
@@ -125,6 +125,7 @@ const BigText = styled.div`
 const Card = styled.div`
   padding: 20px;
   background-color: #000;
+
   opacity: 0.6;
   border-radius: 5px;
   color: #fff;
