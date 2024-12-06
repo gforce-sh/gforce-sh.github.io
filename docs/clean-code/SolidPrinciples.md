@@ -236,13 +236,21 @@ Dependency Inversion is the strategy of depending upon interfaces or abstract
 functions and classes rather than upon concrete functions and classes.
 Components should work in isolation.
 
+![](https://res.cloudinary.com/dldviopcu/image/upload/v1733416095/Pasted_image_20241206002932.png)
+
+should be re-modelled into
+
+![](https://res.cloudinary.com/dldviopcu/image/upload/v1733416095/Pasted_image_20241206003011.png)
+
+In code form:
+
 ```java
 interface InterfaceB {
     method()
 }
 
 class ClassB implements InterfaceB {
-// fields, constructor and methods
+    // fields, constructor and methods
 }
 
 class ObjectA {
@@ -256,9 +264,7 @@ class ObjectA {
 ```
 
 [From Baeldung](https://www.baeldung.com/cs/dip#why-is-the-dependency-inversion-principle-important)
-
 **Why Is the Dependency Inversion Principle Important?**
-
 When we write code for applications, we might split our logic into multiple
 modules. Nonetheless, this will result in a code with dependencies. One
 motivation behind DIP is to prevent us from depending upon modules that often
