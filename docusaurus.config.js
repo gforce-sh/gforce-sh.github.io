@@ -57,7 +57,7 @@ const config = {
           // Change to '/' to make docs the landing page
           routeBasePath: BOOK_PATH,
           // sidebarCollapsed: false,
-          // exclude: ['**/clean-code/**'],
+          exclude: ['**/clean-code/**'],
         },
         blog: false,
         theme: {

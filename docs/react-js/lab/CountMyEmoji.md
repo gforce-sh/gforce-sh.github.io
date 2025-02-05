@@ -9,7 +9,8 @@ Clone the following repo:
 
 [https://github.com/gforce-sh/react-exercise](https://github.com/gforce-sh/react-exercise)
 
-We are going to work on the `main` branch (a sample react app is set up on the `react-app-template` branch).
+We are going to work on the `main` branch (a sample react app is set up on
+the `react-app-template` branch).
 
 In this lab, we will learn how to update and reset a simple counter by 1.
 
@@ -23,7 +24,8 @@ In this lab, we will learn how to update and reset a simple counter by 1.
 
 > Further practice:
 >
-> 1. Can we store a history of numbers displayed, with the list shown beneath the reset button?
-> 2. Can we use this template to create a simple calculator? The calculator should support basic addition, subtraction,
-
-     multiplication and division.
+> 1. Can we store a history of numbers displayed, with the list shown beneath
+>    the reset button?
+>
+> 2. Can we use this template to create a simple calculator? The calculator
+>    should support basic addition, subtraction, multiplication and division.
