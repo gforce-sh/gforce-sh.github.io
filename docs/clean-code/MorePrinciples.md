@@ -13,7 +13,7 @@ dependencies such that objects can tolerate future changes.
 
 ### Law of Demeter
 
-([source](https://www.baeldung.com/java-demeter-law#:~:text=The%20Law%20of%20Demeter%20is,interact%20with%20its%20immediate%20dependencies.))
+([source: Baeldung](https://www.baeldung.com/java-demeter-law#:~:text=The%20Law%20of%20Demeter%20is,interact%20with%20its%20immediate%20dependencies.))
 
 - Aka principle of least knowledge.
 - Goal: to build components that are less dependent on each other and loosely
